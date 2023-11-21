@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+.background1 {
+    height: 465px;
+    width: 100%;
+}
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex; /* Adiciona display flex para o header */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Distribui os itens horizontalmente */
+}
+header img {
+    max-width: 100%;
+    max-height: 80px; /* Ajuste a altura conforme necessário */
+    margin-bottom: 10px; /* Adiciona um espaço entre o logo e o texto */
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Transforma a ul em um contêiner flexível */
+    font-size: 13px;
+}
+
+li {
+    margin-right: 20px; /* Adiciona espaçamento entre os itens da lista */
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.car {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Organiza os filhos em uma coluna */
+}
+
+.car img {
+    max-width: 100%;
+    
+    height: 250px;
+}
+.car button{
+    background-color: red;
+    color: black;
+    width: 100%; /* Faz o botão ocupar toda a largura disponível */
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+    border: none; /* Remove a borda */
+    font-size: 25px;
+    margin-top: auto; 
+}
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Distribui os blocos lado a lado */
+    flex-wrap: wrap; /* Permite que os blocos quebrem para a próxima linha se o espaço for insuficiente */
+}
+.info-block {
+    width: calc(33.33% - 20px); /* Calcula a largura para três blocos lado a lado com algum espaço entre eles */
+    margin: 10px; /* Adiciona algum espaço entre os blocos */
+}
+
+.info-block h3 {
+    color: red; /* Cor do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.info-block p {
+    color: white; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento abaixo do texto */
+}
+li a {
+    color: red; /* Escolha a cor desejada */
+}
+.balloon{
+    font-weight: 40px;
+    background-color: red; /* Cor de fundo do balão */
+    color: black; /* Cor do texto dentro do balão */
+    padding: 5px; /* Espaçamento interno do balão */
+    border-radius: 10px; /* Borda arredondada do balão */
+    max-width: 500px; /* Largura máxima do balão */
+    margin: 20px auto; /* Margem para centralizar o balão */
+    text-align: center; /* Centralizar o texto dentro do balão */
+}   
+
+
