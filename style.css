@@ -87,14 +87,17 @@ footer {
 .info-block h3 {
     color: red; /* Cor do título */
     margin-bottom: 10px; /* Espaçamento abaixo do título */
+    font-weight: normal; /* Ajuste conforme necessário */
 }
 
 .info-block p {
-    color: white; /* Cor do texto */
+    color: white; /* Cor do texto */    
     margin-bottom: 10px; /* Espaçamento abaixo do texto */
 }
 li a {
     color: red; /* Escolha a cor desejada */
+    text-decoration: none; /* Remove a decoração de sublinhado padrão */
+    font-weight: bold; /* Deixa o texto mais ousado (opcional) */
 }
 .balloon{
     font-weight: 40px;
